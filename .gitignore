@@ -1,0 +1,37 @@
+# Build artifacts
+/agentdock
+/bin/
+dist/
+build/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test and coverage output
+*.test
+*.out
+coverage.html
+coverage.xml
+
+# Runtime workspaces and local state
+/workspace/
+/tmp/
+*.log
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Go tooling
+/vendor/
+
+# Editor and OS files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
